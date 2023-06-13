@@ -18,13 +18,33 @@ struct ListView: View {
     ]
     
     var body: some View {
-        NavigationView {
-            List(users, id: \.id) { user in
-                RowView(user: user)
-            }
-            .listStyle(.inset)
-            .navigationTitle("Chikorita Learning")
-        }
+        
+//        NavigationView {
+//            VStack {
+//                List(users, id: \.id) { user in
+//                    RowView(user: user)
+//                }.listStyle(.inset)
+//            }
+//            .navigationTitle("Chikorita Learning")
+//        }
+        
+                NavigationView {
+                    VStack {
+                        List {
+                            Section("Titulo 1") {
+                                ForEach(users, id: \.id) { user in
+                                    RowView(user: user)
+                                }
+                            }
+                            Section("Titulo 2") {
+                                ForEach(users, id: \.id) { user in
+                                    RowView(user: user)
+                                }
+                            }
+                        }
+                    }
+                    .navigationTitle("Chikorita Learning")
+                }
     }
 }
 
