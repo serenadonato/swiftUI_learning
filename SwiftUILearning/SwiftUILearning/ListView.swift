@@ -9,47 +9,74 @@ import SwiftUI
 
 struct ListView: View {
     
-    var users = [
-        User(id: 1, title: "Lucas Benitez", description: "iOS Developer - Créditos", avatar: Image(systemName: "checkmark.square.fill")),
-        User(id: 2, title: "Francisco Saldivar", description: "iOS Dev - Loans(cuotis)", avatar: Image(systemName: "checkmark.square.fill")),
-        User(id: 3, title: "Serena Donato", description: "iOS Developer | Créditos (Loans)", avatar: Image(systemName: "checkmark.square.fill")),
-        User(id: 4, title: "Micaela Nuñez", description: "iOS Dev - Préstamos", avatar: Image(systemName: "checkmark.square.fill")),
-        User(id: 5, title: "Facundo Barboza", description: "iOS Developer | Créditos", avatar: Image(systemName: "checkmark.square.fill"))
-    ]
+    @ObservedObject var presenter = ListViewPresenter()
     
     var body: some View {
-        
-//        NavigationView {
-//            VStack {
-//                List(users, id: \.id) { user in
-//                    RowView(user: user)
-//                }.listStyle(.inset)
-//            }
-//            .navigationTitle("Chikorita Learning")
-//        }
-        
-                NavigationView {
-                    VStack {
-                        List {
-                            Section("Titulo 1") {
-                                ForEach(users, id: \.id) { user in
-                                    RowView(user: user)
-                                }
-                            }
-                            Section("Titulo 2") {
-                                ForEach(users, id: \.id) { user in
-                                    RowView(user: user)
-                                }
-                            }
-                        }
+        NavigationView {
+            VStack {
+                List(presenter.viewModel.users, id: \.id) { user in
+                    NavigationLink(destination: DetailsView(user: user)) {
+                        RowView(user: user)
                     }
-                    .navigationTitle("Chikorita Learning")
                 }
+                .listStyle(.inset)
+                Button("Refresh") {
+                    presenter.refreshData()
+                }
+                .onViewDidLoad {
+                    presenter.fetchData()
+                }
+            }
+            .navigationTitle("Chikorita Learning")
+        }
     }
 }
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()
+    }
+}
+
+class ListViewPresenter: ObservableObject {
+    @Published var viewModel = ListViewModel()
+    
+    func fetchData() {
+        viewModel.users = [
+            User(id: 1, title: "Lucas Benitez", description: "Android - Créditos", avatar: "Mask"),
+            User(id: 2, title: "Francisco Saldivar", description: "iOS Dev - Loans(cuotis)", avatar: "Mask"),
+            User(id: 3, title: "Serena Donato", description: "iOS Developer | Créditos (Loans)", avatar: "Mask"),
+            User(id: 4, title: "Micaela Nuñez", description: "iOS Dev - Préstamos", avatar: "Mask"),
+            User(id: 5, title: "Facundo Barboza", description: "iOS Developer | Créditos", avatar: "Mask")
+        ]
+    }
+    
+    func refreshData() {
+        viewModel.users = [User(id: 5, title: "Facundo Barboza", description: "iOS Developer | Créditos", avatar: "Mask")]
+    }
+}
+
+struct ListViewModel {
+    var users: [User] = []
+}
+
+struct ViewDidLoadModifier: ViewModifier {
+    @State private var viewDidLoad = false
+    let action: (() -> Void)?
+    
+    func body(content: Content) -> some View {
+        content
+            .onAppear {
+                if viewDidLoad == false {
+                    viewDidLoad = true
+                    action?()
+                }
+            }
+    }
+}
+
+extension View {
+    func onViewDidLoad(perform action: (() -> Void)? = nil) -> some View {
+        self.modifier(ViewDidLoadModifier(action: action))
     }
 }

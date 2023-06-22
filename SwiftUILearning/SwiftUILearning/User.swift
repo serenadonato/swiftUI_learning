@@ -12,5 +12,5 @@ struct User {
     var id: Int
     var title: String
     var description: String
-    var avatar: Image
+    var avatar: String
 }
