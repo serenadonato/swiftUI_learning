@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DetailsView: View {
+struct DetailsRootView: View {
     var user: User
     
     var body: some View {
@@ -32,6 +32,6 @@ struct DetailsView: View {
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView(user: User(id: 1, title: "Test", description: "Description", avatar: "Mask"))
+        DetailsRootView(user: User(id: 1, title: "Test", description: "Description", avatar: "Mask"))
     }
 }

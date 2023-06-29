@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */; };
-		EA5C960E2A43F9C20060FE73 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960D2A43F9C20060FE73 /* DetailsView.swift */; };
+		EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */; };
+		EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640E52A4B219200368ACD /* ListViewPresenter.swift */; };
+		EAB640E82A4B21CC00368ACD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640E72A4B21CC00368ACD /* ListViewModel.swift */; };
+		EAB640EC2A4B22C100368ACD /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640EB2A4B22C100368ACD /* ViewDidLoadModifier.swift */; };
 		EAB9B7162A37858100DCE5B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7152A37858100DCE5B9 /* User.swift */; };
 		EAB9B7182A37861E00DCE5B9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7172A37861E00DCE5B9 /* RowView.swift */; };
-		EAB9B71A2A37894000DCE5B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7192A37894000DCE5B9 /* ListView.swift */; };
+		EAB9B71A2A37894000DCE5B9 /* ListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7192A37894000DCE5B9 /* ListRootView.swift */; };
 		F27265092A3213A0008A6129 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27265082A3213A0008A6129 /* SwiftUILearningApp.swift */; };
 		F272650B2A3213A0008A6129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272650A2A3213A0008A6129 /* ContentView.swift */; };
 		F272650D2A3213A3008A6129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F272650C2A3213A3008A6129 /* Assets.xcassets */; };
@@ -40,10 +43,13 @@
 
 /* Begin PBXFileReference section */
 		EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRectangleView.swift; sourceTree = "<group>"; };
-		EA5C960D2A43F9C20060FE73 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRootView.swift; sourceTree = "<group>"; };
+		EAB640E52A4B219200368ACD /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
+		EAB640E72A4B21CC00368ACD /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		EAB640EB2A4B22C100368ACD /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
 		EAB9B7152A37858100DCE5B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAB9B7172A37861E00DCE5B9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
-		EAB9B7192A37894000DCE5B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EAB9B7192A37894000DCE5B9 /* ListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRootView.swift; sourceTree = "<group>"; };
 		F27265052A3213A0008A6129 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27265082A3213A0008A6129 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		F272650A2A3213A0008A6129 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +87,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAB640E12A4B20AC00368ACD /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EAB640E42A4B213400368ACD /* UserDetail */,
+				EAB640E22A4B20B900368ACD /* UserList */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EAB640E22A4B20B900368ACD /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				EAB640E92A4B220500368ACD /* Entity */,
+				EAB9B7192A37894000DCE5B9 /* ListRootView.swift */,
+				EAB640E32A4B20DA00368ACD /* UserListWidget */,
+				EAB640E52A4B219200368ACD /* ListViewPresenter.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		EAB640E32A4B20DA00368ACD /* UserListWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9B7172A37861E00DCE5B9 /* RowView.swift */,
+				EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */,
+			);
+			path = UserListWidget;
+			sourceTree = "<group>";
+		};
+		EAB640E42A4B213400368ACD /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		EAB640E92A4B220500368ACD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9B7152A37858100DCE5B9 /* User.swift */,
+				EAB640E72A4B21CC00368ACD /* ListViewModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EAB640EA2A4B229200368ACD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAB640EB2A4B22C100368ACD /* ViewDidLoadModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		F27264FC2A3213A0008A6129 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +164,12 @@
 		F27265072A3213A0008A6129 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				EAB640EA2A4B229200368ACD /* Utils */,
+				EAB640E12A4B20AC00368ACD /* Module */,
 				F27265082A3213A0008A6129 /* SwiftUILearningApp.swift */,
 				F272650A2A3213A0008A6129 /* ContentView.swift */,
 				F272650C2A3213A3008A6129 /* Assets.xcassets */,
 				F272650E2A3213A3008A6129 /* Preview Content */,
-				EAB9B7152A37858100DCE5B9 /* User.swift */,
-				EAB9B7172A37861E00DCE5B9 /* RowView.swift */,
-				EA5C960D2A43F9C20060FE73 /* DetailsView.swift */,
-				EAB9B7192A37894000DCE5B9 /* ListView.swift */,
-				EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */,
 			);
 			path = SwiftUILearning;
 			sourceTree = "<group>";
@@ -273,10 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F272650B2A3213A0008A6129 /* ContentView.swift in Sources */,
+				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
 				EAB9B7162A37858100DCE5B9 /* User.swift in Sources */,
-				EA5C960E2A43F9C20060FE73 /* DetailsView.swift in Sources */,
-				EAB9B71A2A37894000DCE5B9 /* ListView.swift in Sources */,
+				EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */,
+				EAB640EC2A4B22C100368ACD /* ViewDidLoadModifier.swift in Sources */,
+				EAB640E82A4B21CC00368ACD /* ListViewModel.swift in Sources */,
+				EAB9B71A2A37894000DCE5B9 /* ListRootView.swift in Sources */,
 				F27265092A3213A0008A6129 /* SwiftUILearningApp.swift in Sources */,
 				EAB9B7182A37861E00DCE5B9 /* RowView.swift in Sources */,
 			);
