@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
-            ListRootView()
+            //ListRootView()
+            DogsView<DogsPresenter>.compose()
         }
     }
 }

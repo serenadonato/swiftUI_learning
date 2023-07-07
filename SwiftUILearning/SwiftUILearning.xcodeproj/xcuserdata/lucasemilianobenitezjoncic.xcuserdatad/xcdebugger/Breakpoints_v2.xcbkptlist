@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B236E43-377A-40BA-828D-2CAFA97C7E47"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC5DCADA-C89D-4574-916D-E1FDC5EC5359"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CC5DCADA-C89D-4574-916D-E1FDC5EC5359 - de92629054617884"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Swift.Optional&lt;SwiftUI.AsyncImage&lt;SwiftUI.Image&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SwiftUILearning.DogsView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "CC5DCADA-C89D-4574-916D-E1FDC5EC5359 - de926290546178e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Swift.Optional&lt;SwiftUI.AsyncImage&lt;SwiftUI.Image&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SwiftUILearning.DogsView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "245F1A8E-EC7C-4215-B495-F196680BC4AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchDogList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "245F1A8E-EC7C-4215-B495-F196680BC4AD - 143a2696ef347999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;SwiftUILearning.Dog&gt;, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsPresenter.fetchDogList() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "245F1A8E-EC7C-4215-B495-F196680BC4AD - aaeb82de0879d0e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.Dog, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsPresenter.fetchDogList() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F940EFE-6D84-4FBE-A25C-104FB95368C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchDogList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F940EFE-6D84-4FBE-A25C-104FB95368C1 - 3870973794c4235f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;Swift.Array&lt;SwiftUILearning.Dog&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "2F940EFE-6D84-4FBE-A25C-104FB95368C1 - bb6b356714036e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;SwiftUILearning.Dog, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F77848BC-271B-422B-AD6E-16F706F88D43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchDogList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F77848BC-271B-422B-AD6E-16F706F88D43 - 3870973794c424e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;Swift.Array&lt;SwiftUILearning.Dog&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "F77848BC-271B-422B-AD6E-16F706F88D43 - bb6b3567140369cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;SwiftUILearning.Dog, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AB60A46-DE72-4A49-80A9-E1D554D34FAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchDogList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AB60A46-DE72-4A49-80A9-E1D554D34FAC - 3870973794c42467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;Swift.Array&lt;SwiftUILearning.Dog&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "5AB60A46-DE72-4A49-80A9-E1D554D34FAC - bb6b35671403694b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsInteractor.fetchDogList(completion: (Swift.Result&lt;SwiftUILearning.Dog, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82E67FD0-89CB-41E3-ABAB-4E674A4DECD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "82E67FD0-89CB-41E3-ABAB-4E674A4DECD3 - 61e3f666b8f20d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Swift.Optional&lt;SwiftUI.AsyncImage&lt;SwiftUI.Image&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SwiftUILearning.DogsView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "82E67FD0-89CB-41E3-ABAB-4E674A4DECD3 - 61e3f666b8f20f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Swift.Optional&lt;SwiftUI.AsyncImage&lt;SwiftUI.Image&gt;&gt;, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in SwiftUILearning.DogsView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "876">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
