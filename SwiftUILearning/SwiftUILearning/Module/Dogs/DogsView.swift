@@ -24,18 +24,38 @@ struct DogsView <Presenter: DogsPresenterProtocol>: View, DogsViewProtocol {
         VStack {
             // Implementa la interfaz de usuario de tu vista
             Text("Lista de Perros")
-            if let data = presenter.dataDog {
-                AsyncImage(url: .init(string: data.message))
+            if let dataImage = presenter.dataDog {
+                AsyncImage(url: URL(string: presenter.dataDog?.message ?? "")) { phase in
+                    switch phase {
+                    case .success(let image):
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 200, height: 200)
+                    case .failure(let error):
+                        // Vista de error en caso de fallo en la carga de la imagen
+                        Text("Error: \(error.localizedDescription)")
+                    case .empty:
+                        ProgressView()
+                    @unknown default:
+                        ProgressView()
+                    }
+                }
+            }
+            if let dataFact = presenter.dataDogFact {
+                Text(presenter.dataDogFact?.data)
             }
             Button("Obtener lista de perros") {
-                presenter.fetchDogList()
+                presenter.fetchDogImage()
+                presenter.fetchDogFact()
             }
         }
         .onAppear {
             // Acciones a realizar cuando la vista aparece
             
             // Ejemplo: Cargar la lista de perros al aparecer la vista
-            presenter.fetchDogList()
+            presenter.fetchDogImage()
+            presenter.fetchDogFact()
         }
     }
     

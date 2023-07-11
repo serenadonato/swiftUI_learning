@@ -8,9 +8,11 @@ import Foundation
 import Combine
 
 protocol DogsPresenterProtocol: AnyObject, ObservableObject {
-    func fetchDogList()
+    func fetchDogImage()
     func fetchDogDetails(withID id: String)
+    func fetchDogFact() 
     var dataDog: Dog? { get }
+    var dataDogFact: DogFact? { get }
     // Otras funciones relacionadas con acciones de la vista y comunicación con el Interactor
 }
 
@@ -18,17 +20,29 @@ class DogsPresenter: DogsPresenterProtocol {
     var interactor: DogsInteractor
     var view: DogsViewProtocol?
     @Published var dataDog: Dog?
+    @Published var dataDogFact: DogFact?
     
     init(interactor: DogsInteractor) {
         self.interactor = interactor
     }
     
     
-    func fetchDogList() {
-        interactor.fetchDogList { [weak self] result in
+    func fetchDogImage() {
+        interactor.fetchDogImage { [weak self] result in
             switch result {
-            case .success(let dogList):
-                self?.dataDog = dogList
+            case .success(let dogImage):
+                self?.dataDog = dogImage
+            case .failure(let error):
+                self?.view?.showError(error.localizedDescription)
+            }
+        }
+    }
+    
+    func fetchDogFact() {
+        interactor.fetchDogFact { [weak self] result in
+            switch result {
+            case .success(let dogFact):
+                self?.dataDogFact = dogFact
                 print("Funciona")
             case .failure(let error):
                 self?.view?.showError(error.localizedDescription)

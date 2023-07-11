@@ -8,6 +8,9 @@
 struct Dog: Codable {
     let message: String
     let status: String
-    // Agrega más propiedades según tus necesidades
+}
+
+struct DogFact: Codable {
+    let data: [String]
 }
 

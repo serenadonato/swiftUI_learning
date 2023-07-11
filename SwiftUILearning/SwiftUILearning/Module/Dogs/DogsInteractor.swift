@@ -14,15 +14,35 @@ class DogsInteractor {
         self.networkManager = networkManager
     }
     
-    func fetchDogList(completion: @escaping (Result<Dog, Error>) -> Void) {
+    func fetchDogImage(completion: @escaping (Result<Dog, Error>) -> Void) {
         let url = "https://dog.ceo/api/breeds/image/random"
         
         networkManager.getRequest(url: url, parameters: nil) { result in
             switch result {
             case .success(let data):
                 // Parsea los datos JSON de la respuesta en un array de objetos Dog
-                if let dogList = try? JSONDecoder().decode(Dog.self, from: data) {
-                    completion(.success(dogList))
+                if let dogImage = try? JSONDecoder().decode(Dog.self, from: data) {
+                    completion(.success(dogImage))
+                } else {
+                    // Error al parsear los datos
+                    completion(.failure(NetworkError.invalidData))
+                }
+            case .failure(let error):
+                // Error en la solicitud o respuesta de la API
+                completion(.failure(error))
+            }
+        }
+    }
+    
+    func fetchDogFact(completion: @escaping (Result<DogFact, Error>) -> Void) {
+        let url = "https://meowfacts.herokuapp.com/?count=1"
+        
+        networkManager.getRequest(url: url, parameters: nil) { result in
+            switch result {
+            case .success(let data):
+                // Parsea los datos JSON de la respuesta en un array de objetos Dog
+                if let dogFact = try? JSONDecoder().decode(DogFact.self, from: data) {
+                    completion(.success(dogFact))
                 } else {
                     // Error al parsear los datos
                     completion(.failure(NetworkError.invalidData))
