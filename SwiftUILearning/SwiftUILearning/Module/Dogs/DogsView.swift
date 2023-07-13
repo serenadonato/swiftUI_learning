@@ -43,7 +43,7 @@ struct DogsView <Presenter: DogsPresenterProtocol>: View, DogsViewProtocol {
                 }
             }
             if let dataFact = presenter.dataDogFact {
-                Text(presenter.dataDogFact?.data)
+                Text(dataFact.data[0])
             }
             Button("Obtener lista de perros") {
                 presenter.fetchDogImage()
