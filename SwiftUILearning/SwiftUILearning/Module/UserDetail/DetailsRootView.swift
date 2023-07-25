@@ -13,8 +13,8 @@ struct DetailsRootView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack() {
-                CheckRectangleView(avatar: user.avatar)
-                    .padding(.trailing, 5)
+                //CheckRectangleView(avatar: user.avatar)
+                 //   .padding(.trailing, 5)
                 Text(user.description)
                     .font(.title2)
                     .bold()
