@@ -11,12 +11,17 @@ struct CustomCircle: View {
     var width: CGFloat
     var height: CGFloat
     var color: Color
+    var icon: String?
+    var colorIcon: Color?
     
     var body: some View {
-        Circle()
-            .frame(width: width, height: height)
-            .foregroundColor(color)
-            .offset(x: -130, y: -300)
+        ZStack {
+            Circle()
+                .frame(width: width, height: height)
+                .foregroundColor(color)
+            Label("", systemImage: icon ?? "").foregroundColor(colorIcon ?? .black)
+                .frame(alignment: .center)
+        }
     }
 }
 

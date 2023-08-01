@@ -11,11 +11,18 @@ struct CustomRectangle: View {
     var width: CGFloat
     var height: CGFloat
     var color: Color
-    
+    var icon: String?
+    var colorIcon: Color?
+    var label: String?
     var body: some View {
-        Rectangle()
-            .frame(width: width,height: height)
-            .foregroundColor(color)
+        ZStack {
+            Rectangle()
+                .frame(width: width,height: height)
+                .foregroundColor(color)
+            //Image(systemName: "arrow.up.left")
+            Label(label ?? "", systemImage: icon ?? "").foregroundColor(colorIcon ?? .black)
+                .frame(alignment: .center)
+        }
     }
 }
 
