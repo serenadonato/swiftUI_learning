@@ -21,9 +21,9 @@ struct HeroImageView<Content: View,Presenter: HeroPresenterProtocol>: View, Hero
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 400, height: 200)
-                case .failure(let error):
+                case .failure(_):
                     // Vista de error en caso de fallo en la carga de la imagen
-                    Text("Error: \(error.localizedDescription)")
+                    Text("Ups! Ocurrió un error")
                 case .empty:
                     ProgressView()
                 @unknown default:

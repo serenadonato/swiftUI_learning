@@ -37,7 +37,7 @@ struct HeroView <Presenter: HeroPresenterProtocol>: View, HeroViewProtocol {
                 ZStack {
                     CustomRectangle(width: 300, height: 300, color: .teal)
                     HeroImageView(presenter: presenter) {
-                        Text("No se encontró el héroe")
+                        Text("Buscá un superheroe")
                     }
                 }.offset(y:-100)
             }
