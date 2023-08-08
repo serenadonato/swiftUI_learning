@@ -14,6 +14,8 @@
 		8D8053112A54F13300DD324C /* DogsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053102A54F13300DD324C /* DogsRouter.swift */; };
 		8D8053142A54F6BB00DD324C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053132A54F6BB00DD324C /* NetworkManager.swift */; };
 		8D8053162A54F8D200DD324C /* DogsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053152A54F8D200DD324C /* DogsResponse.swift */; };
+		9D41F40C2A827D07000BBBD0 /* SpeechIndicatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */; };
+		9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */; };
 		EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */; };
 		EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */; };
 		EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640E52A4B219200368ACD /* ListViewPresenter.swift */; };
@@ -55,6 +57,8 @@
 		8D8053102A54F13300DD324C /* DogsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsRouter.swift; sourceTree = "<group>"; };
 		8D8053132A54F6BB00DD324C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8D8053152A54F8D200DD324C /* DogsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsResponse.swift; sourceTree = "<group>"; };
+		9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechIndicatorComponent.swift; sourceTree = "<group>"; };
+		9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircleComponent.swift; sourceTree = "<group>"; };
 		EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRectangleView.swift; sourceTree = "<group>"; };
 		EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRootView.swift; sourceTree = "<group>"; };
 		EAB640E52A4B219200368ACD /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
@@ -121,9 +125,27 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		9D41F4092A827D07000BBBD0 /* HeroDex */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F40A2A827D07000BBBD0 /* Components */,
+			);
+			path = HeroDex;
+			sourceTree = "<group>";
+		};
+		9D41F40A2A827D07000BBBD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */,
+				9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		EAB640E12A4B20AC00368ACD /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				9D41F4092A827D07000BBBD0 /* HeroDex */,
 				8D8053072A54EEDC00DD324C /* Dogs */,
 				EAB640E42A4B213400368ACD /* UserDetail */,
 				EAB640E22A4B20B900368ACD /* UserList */,
@@ -376,6 +398,7 @@
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				8D80530F2A54F11300DD324C /* DogsView.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
+				9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */,
 				EAB9B7162A37858100DCE5B9 /* User.swift in Sources */,
 				8D8053092A54EF2000DD324C /* DogsInteractor.swift in Sources */,
 				EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */,
@@ -386,6 +409,7 @@
 				F27265092A3213A0008A6129 /* SwiftUILearningApp.swift in Sources */,
 				8D8053142A54F6BB00DD324C /* NetworkManager.swift in Sources */,
 				EAB9B7182A37861E00DCE5B9 /* RowView.swift in Sources */,
+				9D41F40C2A827D07000BBBD0 /* SpeechIndicatorComponent.swift in Sources */,
 				8D80530D2A54EF8300DD324C /* DogsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
