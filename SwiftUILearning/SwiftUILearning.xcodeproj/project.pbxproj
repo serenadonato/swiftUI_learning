@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A485D662A85660000AE538F /* ColorsBallsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A485D652A85660000AE538F /* ColorsBallsComponent.swift */; };
 		8D52E7DE2A4DBCD000D0F484 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8D52E7DD2A4DBCD000D0F484 /* Alamofire */; };
 		8D8053092A54EF2000DD324C /* DogsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053082A54EF2000DD324C /* DogsInteractor.swift */; };
 		8D80530D2A54EF8300DD324C /* DogsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80530C2A54EF8300DD324C /* DogsPresenter.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A485D652A85660000AE538F /* ColorsBallsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBallsComponent.swift; sourceTree = "<group>"; };
 		8D8053082A54EF2000DD324C /* DogsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsInteractor.swift; sourceTree = "<group>"; };
 		8D80530C2A54EF8300DD324C /* DogsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsPresenter.swift; sourceTree = "<group>"; };
 		8D80530E2A54F11300DD324C /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */,
 				9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */,
+				0A485D652A85660000AE538F /* ColorsBallsComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				F272650B2A3213A0008A6129 /* ContentView.swift in Sources */,
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				8D80530F2A54F11300DD324C /* DogsView.swift in Sources */,
+				0A485D662A85660000AE538F /* ColorsBallsComponent.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
 				9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */,
 				EAB9B7162A37858100DCE5B9 /* User.swift in Sources */,
