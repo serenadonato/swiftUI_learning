@@ -9,7 +9,16 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            HStack(alignment: .top) {
+                SpeechIndicatorComponent(blinkSpeed: 2, blinkColor1: Color(red: 0.2, green: 0.6, blue: 1.0),
+                                         blinkColor2: Color.blue).frame(width: 80)
+                Spacer()
+                ColorsBallsComponent().frame(width: 100)
+            }.padding()
+            DecorativeLineComponent().frame(height: 100).offset(x: 0, y: 60).padding()
+        }.background(Color.red)
+            .frame(height: UIScreen.main.bounds.height * 0.4)
     }
 }
 
