@@ -21,6 +21,7 @@ struct GradientCircleComponent: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
+                Circle().fill(Color.white)
                 Circle()
                     .fill(RadialGradient(gradient: .init(colors: colors),
                                          center: center,
