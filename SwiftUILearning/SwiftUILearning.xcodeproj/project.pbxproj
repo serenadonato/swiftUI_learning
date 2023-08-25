@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5084B22A97D73700C30A4D /* DecorativePreviewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5084B12A97D73700C30A4D /* DecorativePreviewComponent.swift */; };
 		8D52E7DE2A4DBCD000D0F484 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8D52E7DD2A4DBCD000D0F484 /* Alamofire */; };
 		8D8053092A54EF2000DD324C /* DogsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053082A54EF2000DD324C /* DogsInteractor.swift */; };
 		8D80530D2A54EF8300DD324C /* DogsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80530C2A54EF8300DD324C /* DogsPresenter.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D5084B12A97D73700C30A4D /* DecorativePreviewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorativePreviewComponent.swift; sourceTree = "<group>"; };
 		8D8053082A54EF2000DD324C /* DogsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsInteractor.swift; sourceTree = "<group>"; };
 		8D80530C2A54EF8300DD324C /* DogsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsPresenter.swift; sourceTree = "<group>"; };
 		8D80530E2A54F11300DD324C /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				9D0441862A8E9A840016CDDA /* DecorativeLineComponent.swift */,
 				9D0441882A8EA2610016CDDA /* HeaderView.swift */,
 				A015E8432A9523D4008F1223 /* ColorsBallsComponent.swift */,
+				8D5084B12A97D73700C30A4D /* DecorativePreviewComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				8D8053112A54F13300DD324C /* DogsRouter.swift in Sources */,
 				F272650B2A3213A0008A6129 /* ContentView.swift in Sources */,
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
+				8D5084B22A97D73700C30A4D /* DecorativePreviewComponent.swift in Sources */,
 				8D80530F2A54F11300DD324C /* DogsView.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
 				9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */,

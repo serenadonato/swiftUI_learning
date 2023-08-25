@@ -11,8 +11,7 @@ import SwiftUI
 struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
-            //ListRootView()
-            HeroView<HeroPresenter>.compose()
+            HeaderView()
         }
     }
 }
