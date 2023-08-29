@@ -71,7 +71,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "245F1A8E-EC7C-4215-B495-F196680BC4AD"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwiftUILearning/Module/Dogs/DogsPresenter.swift"
@@ -111,6 +111,21 @@
                   startingLineNumber = "29"
                   endingLineNumber = "29"
                   offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "245F1A8E-EC7C-4215-B495-F196680BC4AD - 8ce316ce22001487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.Dog, Swift.Error&gt;) -&gt; () in SwiftUILearning.DogsPresenter.fetchDogImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Dogs/DogsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "396">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -209,6 +224,244 @@
             endingLineNumber = "42"
             landmarkName = "fetchDogFact(completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69C591CD-34F4-48E7-B943-E6EE9E062EA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Dogs/DogsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchDogImage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ADF976D-4D71-4CC9-945D-1070677A05B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Hero/HeroPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchHeroImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5ADF976D-4D71-4CC9-945D-1070677A05B7 - 80bf2ee74e348f79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "5ADF976D-4D71-4CC9-945D-1070677A05B7 - 80bf2ee74e348f79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "5ADF976D-4D71-4CC9-945D-1070677A05B7 - 80bf2ee74e348f79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77CFC532-F20F-409B-979E-086A86ACE474"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Hero/HeroPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchHeroImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77CFC532-F20F-409B-979E-086A86ACE474 - 80bf2ee74e348ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2140">
+               </Location>
+               <Location
+                  uuid = "77CFC532-F20F-409B-979E-086A86ACE474 - 80bf2ee74e348ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2364">
+               </Location>
+               <Location
+                  uuid = "77CFC532-F20F-409B-979E-086A86ACE474 - 80bf2ee74e348ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; () in SwiftUILearning.HeroPresenter.fetchHeroImage() -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "741A088C-22F1-455A-9243-45CE189B3E5D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Module/Hero/HeroInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchHeroImage(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "741A088C-22F1-455A-9243-45CE189B3E5D - 1c7a204a1e9ed50d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUILearning.HeroInteractor.fetchHeroImage(completion: (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "741A088C-22F1-455A-9243-45CE189B3E5D - 1c7a204a1e9ed50d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUILearning.HeroInteractor.fetchHeroImage(completion: (Swift.Result&lt;SwiftUILearning.SuperHero, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Module/Hero/HeroInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1024510-7CF9-4682-A4E7-DA0FD31868D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUILearning/Components/HeroImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E1024510-7CF9-4682-A4E7-DA0FD31868D8 - d0a708bacef6b34b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUILearning.HeroImageView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Components/HeroImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "E1024510-7CF9-4682-A4E7-DA0FD31868D8 - d0a708bacef6b34b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUILearning.HeroImageView.body.getter : some"
+                  moduleName = "SwiftUILearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasemilianobenitezjoncic/Proyectos/swiftUI_learning/SwiftUILearning/SwiftUILearning/Components/HeroImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

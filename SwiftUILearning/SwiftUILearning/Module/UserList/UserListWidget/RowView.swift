@@ -13,7 +13,7 @@ struct RowView: View {
     
     var body: some View {
         HStack{
-            CheckRectangleView(avatar: user.avatar)
+           // CheckRectangleView(avatar: user.avatar)
             VStack(alignment: .leading){
                 Text(user.title).font(.title3)
                 Text(user.description).font(.subheadline)
