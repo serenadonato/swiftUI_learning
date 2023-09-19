@@ -21,24 +21,35 @@ struct CustomRectangle: Shape {
     
 }
 struct DecorativePreviewComponent: View {
+    var content: (() -> AnyView)? = nil
+    //{
+    //var image: Image = Image("pikachu")
+    
+    //}
+    
     var body: some View {
         ZStack {
             CustomRectangle()
                 .stroke(Color.black, lineWidth: 5)
-                .overlay(CustomRectangle()
-                    .fill(Color.gray))
-                .frame(width: 100, height: 50)
+                .overlay(
+                    CustomRectangle()
+                        .fill(Color.gray)
+                        .overlay (
+                            AnyView(Rectangle().fill(.red))
+                                .overlay(AnyView(content?()))
+                                .padding(20)
+                                .padding(.bottom, 50)
+                        )
+                )
+                .frame(width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.3)
         }
     }
 }
 
 struct DecorativePreviewComponent_Previews: PreviewProvider {
     static var previews: some View {
-        HStack {
-            
-            Color.red.ignoresSafeArea()
-            DecorativePreviewComponent()
-            DecorativePreviewComponent()
-        }
+        DecorativePreviewComponent(content: {
+            AnyView(Image("pikachu"))
+        })
     }
 }
