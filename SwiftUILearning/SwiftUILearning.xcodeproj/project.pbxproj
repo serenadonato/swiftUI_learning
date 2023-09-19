@@ -29,6 +29,7 @@
 		EAB9B7162A37858100DCE5B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7152A37858100DCE5B9 /* User.swift */; };
 		EAB9B7182A37861E00DCE5B9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7172A37861E00DCE5B9 /* RowView.swift */; };
 		EAB9B71A2A37894000DCE5B9 /* ListRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9B7192A37894000DCE5B9 /* ListRootView.swift */; };
+		EABC8C4E2ABA16E600B771A6 /* MicrophoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC8C4D2ABA16E600B771A6 /* MicrophoneButton.swift */; };
 		F27265092A3213A0008A6129 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27265082A3213A0008A6129 /* SwiftUILearningApp.swift */; };
 		F272650B2A3213A0008A6129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272650A2A3213A0008A6129 /* ContentView.swift */; };
 		F272650D2A3213A3008A6129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F272650C2A3213A3008A6129 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		EAB9B7152A37858100DCE5B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAB9B7172A37861E00DCE5B9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		EAB9B7192A37894000DCE5B9 /* ListRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRootView.swift; sourceTree = "<group>"; };
+		EABC8C4D2ABA16E600B771A6 /* MicrophoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneButton.swift; sourceTree = "<group>"; };
 		F27265052A3213A0008A6129 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27265082A3213A0008A6129 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		F272650A2A3213A0008A6129 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				9D0441882A8EA2610016CDDA /* HeaderView.swift */,
 				A015E8432A9523D4008F1223 /* ColorsBallsComponent.swift */,
 				8D5084B12A97D73700C30A4D /* DecorativePreviewComponent.swift */,
+				EABC8C4D2ABA16E600B771A6 /* MicrophoneButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8053112A54F13300DD324C /* DogsRouter.swift in Sources */,
+				EABC8C4E2ABA16E600B771A6 /* MicrophoneButton.swift in Sources */,
 				F272650B2A3213A0008A6129 /* ContentView.swift in Sources */,
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				8D5084B22A97D73700C30A4D /* DecorativePreviewComponent.swift in Sources */,

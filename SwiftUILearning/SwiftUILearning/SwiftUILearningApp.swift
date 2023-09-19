@@ -11,7 +11,25 @@ import SwiftUI
 struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
+            VStack {
+                HeaderView()
+                DecorativePreviewComponent(content: {
+                    AnyView(Image("pikachu"))
+                })
+                Spacer()
+            }
+        }
+    }
+}
+
+struct SwiftUILearningApp_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack {
             HeaderView()
+            DecorativePreviewComponent(content: {
+                AnyView(Image("pikachu"))
+            })
+            Spacer()
         }
     }
 }
