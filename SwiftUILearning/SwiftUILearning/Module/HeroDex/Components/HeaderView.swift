@@ -18,12 +18,15 @@ struct HeaderView: View {
             }.padding()
             DecorativeLineComponent().frame(height: 100).offset(x: 0, y: 60).padding()
         }.background(Color.red)
-            .frame(height: UIScreen.main.bounds.height * 0.4)
+//            .frame(height: UIScreen.main.bounds.height * 0.4)
     }
 }
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        VStack {
+            HeaderView()
+            Spacer()
+        }
     }
 }
